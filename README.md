@@ -7,7 +7,7 @@ You can find content of each session within their named folder. It includes the 
 
 #### Prerequisite
 - ##### Software
-    - Postman
+    - [Postman](https://www.postman.com/downloads/)
 - ##### Technology
     - NodeJS(v12)
 
