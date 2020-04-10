@@ -1,16 +1,16 @@
 {
-  "name": "webdev_test",
+  "name": "backend_dev",
   "version": "1.0.0",
   "description": "",
   "main": "expressbasic.js",
   "scripts": {
-    "dev" : "nodemon expressbasic.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "aker99",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
