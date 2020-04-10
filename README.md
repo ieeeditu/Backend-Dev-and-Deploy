@@ -5,5 +5,15 @@ It's a series of sessions conducted to give introduction of backend development 
 
 You can find content of each session within their named folder. It includes the persentation and code used for demonstartion.
 
+#### Prerequisite
+- ##### Software
+    - Postman
+- ##### Technology
+    - NodeJS(v12)
+
+#### Setup
+1. Download repo using `git clone <url>`
+2. Open Terminal `npm i`
+
 #### Speaker
 - [Himanshu Kotnala](https://www.linkedin.com/in/aker99/)
