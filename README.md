@@ -13,7 +13,7 @@ You can find content of each session within their named folder. It includes the 
 
 #### Setup
 1. Download repo using `git clone <url>`
-2. Open Terminal `npm i`
+2. Open git repo in terminal `npm i`
 
 #### Speaker
 - [Himanshu Kotnala](https://www.linkedin.com/in/aker99/)
