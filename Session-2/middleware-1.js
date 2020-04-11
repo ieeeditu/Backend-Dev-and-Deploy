@@ -8,7 +8,11 @@ app.use((req, res, next) => {
 });
 
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.send('Hello World! Home');
+});
+
+app.get('/hello', (req, res) => {
+  res.send('Hello World! Hello');
 });
 
 app.listen(8080)

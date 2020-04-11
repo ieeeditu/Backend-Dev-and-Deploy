@@ -5,7 +5,10 @@ const apiCheck = require('./utils/apicheck');
 
 app.use(apiCheck);
 
+app.use(apiCheck);
+
 app.get('/msg/hello', (req, res) => {
+	console.log('Hello');
   res.send('Hello World!');
 });
 

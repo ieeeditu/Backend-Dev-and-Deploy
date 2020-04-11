@@ -7,6 +7,14 @@ app.use('/msg',(req, res, next) => {
   next();
 });
 
+app.get('/', (req, res) => {
+  res.send('Hello World! Home');
+});
+
+app.get('/msg2/hello', (req, res) => {
+  res.send('Hello World! MSg2 ');
+});
+
 app.get('/msg/hello', (req, res) => {
   res.send('Hello World!');
 });
