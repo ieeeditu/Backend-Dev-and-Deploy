@@ -1,0 +1,18 @@
+
+GET  http://localhost:8080/ HTTP/1.1
+
+
+###
+POST http://localhost:8080/v1/organization/create HTTP/1.1
+content-type: application/json
+
+{
+    "organization": {
+        "name" : "IEEE CS SBC1 DITU",
+        "path" : "ieeecs1",
+        "email" : "ieeecs@ieee.org"
+    }
+}
+
+### 
+GET  http://localhost:8080/v1/organization/bypath/ieeecs1 HTTP/1.1
