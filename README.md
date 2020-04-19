@@ -4,6 +4,8 @@
 It's a series of sessions conducted to give introduction of backend development using NodeJS and it's deployment on Azure.
 
 You can find content of each session within their named folder. It includes the persentation and code used for demonstartion.
+#### Note
+*For Session 4 refer following repo: [NodeJS-Azure-Deployment](https://github.com/ieeeditu/NodeJS-Azure-Deployment)*
 
 #### Prerequisite
 - ##### Software
